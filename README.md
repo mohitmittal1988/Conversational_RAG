@@ -29,24 +29,59 @@ This project showcases a conversational Retrieval-Augmented Generation (RAG) pip
 
 ## 📦 Setup
 
-1. Clone the Repository
-  ```bash
-    git clone https://github.com/your-username/pdf-chat-rag-groq.git
-    cd pdf-chat-rag-groq
-2. Create a Virtual Environment
-  ```bash
-    python -m venv venv
-    source venv/bin/activate  # Windows: venv\Scripts\activate
-3. Install Dependencies
-  ```bash
-    pip install -r requirements.txt
-4. Set Environment Variables
-Create a .env file in the root directory:
-  ```bash
-    HF_TOKEN=your_huggingface_token
-5. Run the App
-  ```bash
-    streamlit run app.py
+### 1. Clone the Repository
 
-### API Key Requirement
-When prompted in the UI, provide your Groq API Key to access the gemma2-9b-it LLM.
+```bash
+git clone https://github.com/your-username/pdf-chat-rag-groq.git
+cd pdf-chat-rag-groq
+```
+
+### 2. Create a Virtual Environment
+
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
+
+### 3. Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Set Environment Variables
+
+Create a `.env` file in the root directory:
+
+```env
+HF_TOKEN=your_huggingface_token
+```
+
+### 5. Run the App
+
+```bash
+streamlit run app.py
+```
+
+---
+
+## 🔐 API Key Requirement
+
+When prompted in the UI, provide your **Groq API Key** to access the `gemma2-9b-it` LLM.
+
+---
+
+## 📁 Project Structure
+
+```plaintext
+├── app.py                     # Main Streamlit application
+├── requirements.txt           # Required packages
+├── .env                       # Environment token for HuggingFace
+└── README.md                  # Documentation
+```
+
+---
+
+## 🙌 Acknowledgements
+
+Built with ❤️ using LangChain, Groq, and Streamlit.
