@@ -32,7 +32,7 @@ This project showcases a conversational Retrieval-Augmented Generation (RAG) pip
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/pdf-chat-rag-groq.git
+git clone https://github.com/mohitmittal1988/pdf-chat-rag-groq.git
 cd pdf-chat-rag-groq
 ```
 
